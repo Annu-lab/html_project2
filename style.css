@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:boarder-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.shape{
+    margin-top: 10px;
+    margin-left: 10px;
+    height:200px;
+    width:200px;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle{
+    border-radius: 50%;
+}
+
+#square:hover{
+    background-color: cornflowerblue;
+}
+
+#circle:hover{
+   background-color: gray;
+}
+
+#diamond:hover{
+   background-color: plum;
+}
+
+#diamond{
+    rotate: 40deg;
+    margin-top: 40px;
+    height: 140px;
+    width: 140px;
+    translate: 30px;
+}
+
+#diamond h1{
+    rotate: -45deg;
+}
